@@ -1,0 +1,6 @@
+env3
+data/out
+**/.DS_Store
+**/__pycache__
+.idea
+.vscode
