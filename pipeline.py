@@ -24,7 +24,7 @@ def main():
                         default=5,
                         help='The DroneDeploy map resolution in cm/pixel. Defaults to 5cm/pixel. Lower numbers give slower exports and bigger files.')
 
-    parser.add_argument('--api_key', dest='api_key', action='store',  # Sal's key
+    parser.add_argument('--api_key', dest='api_key', action='store', 
                         help='API key for DroneDeploy API.')
 
     parser.add_argument('--dst_folder', dest='dst_folder', action='store', required=True,
